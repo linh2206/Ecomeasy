@@ -1,0 +1,132 @@
+{
+	"createBrand": {
+		"name": {
+			"en": "Create Brand",
+			"vn": "Tạo Thương Hiệu"
+		},
+		"des": {
+			"en": "Create brand",
+			"vn": "Tạo thương hiệu"
+		}
+	},
+	"readAllBrand": {
+		"name": {
+			"en": "View all brands",
+			"vn": "Xem tất cả thương hiệu"
+		},
+		"des": {
+			"en": "View all brands",
+			"vn": "Xem tất cả thương hiệu"
+		}
+	},
+	"readAdminBrand": {
+		"name": {
+			"en": "View admin's brands",
+			"vn": "Xem các thương hiệu có quyền admin"
+		},
+		"des": {
+			"en": "View brands have admin role",
+			"vn": "Xem các thương hiệu có quyền admin"
+		}
+	},
+	"readOwnerBrand": {
+		"name": {
+			"en": "View owner's brands",
+			"vn": "Xem các thương hiệu có quyền owner"
+		},
+		"des": {
+			"en": "View brands have owner role",
+			"vn": "Xem các thương hiệu có quyền owner"
+		}
+	},
+	"inviteTobeAdmin": {
+		"name": {
+			"en": "Invite",
+			"vn": "Mời"
+		},
+		"des": {
+			"en": "Invite to manage brand",
+			"vn": "Mời tài khoản quản lý thương hiệu"
+		}
+	},
+	"revenueStat": {
+		"name": {
+			"en": "Revenue Statistic",
+			"vn": "Thống kê doanh thu"
+		},
+		"des": {
+			"en": "Revenue Statistic",
+			"vn": "Thống kê doanh thu"
+		}
+	},
+	"updateAdminBrand": {
+		"name": {
+			"en": "Update Admin Brand",
+			"vn": "Cập Nhật Brand"
+		},
+		"des": {
+			"en": "Update brand which having admin right",
+			"vn": "Cập nhật những brand bạn có quyền quản trị"
+		}
+	},
+	"connectSource": {
+		"name": {
+			"en": "Connect data source",
+			"vn": "Liên kết nguồn data"
+		},
+		"des": {
+			"en": "Connect to marketplace, spreadsheet",
+			"vn": "Liên kết các sàn thương mại điện tử"
+		}
+	},
+	"disconnectSource": {
+		"name": {
+			"en": "Disconnect data source",
+			"vn": "Ngắt kết nối nguồn data"
+		},
+		"des": {
+			"en": "Disconnect marketplace, spreadsheet",
+			"vn": "Ngắt liên kết các sàn thương mại điện tử"
+		}
+	},
+	"internalReport": {
+		"name": {
+			"en": "Internal Report",
+			"vn": "Báo cáo nội bộ"
+		},
+		"des": {
+			"en": "Internal Report",
+			"vn": "Báo cáo nội bộ"
+		}
+	},
+	"readFinance": {
+		"name": {
+			"en": "Finance Monitoring",
+			"vn": "Tài chính"
+		},
+		"des": {
+			"en": "Finance",
+			"vn": "Tài chính"
+		}
+	},
+	"writeFinance": {
+		"name": {
+			"en": "Finance Admin",
+			"vn": "Quản trị tài chính"
+		},
+		"des": {
+			"en": "Finance",
+			"vn": "Tài chính"
+		}
+	},
+	"processSetting": {
+		"name": {
+			"en": "Process Setting",
+			"vn": "Cài đặt quy trình"
+		},
+		"des": {
+			"en": "Process Setting",
+			"vn": "Cài đặt quy trình"
+		}
+	}
+}

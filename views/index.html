@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- The first thing in any HTML file should be the charset -->
+  <meta charset="utf-8">
+
+  <!-- Make the page mobile compatible -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Allow installing the app to the homescreen -->
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+  <style>
+    .form-container {
+      width: 300px;
+      font-size: 18px;
+      margin: 100px auto;
+    }
+
+    .input-container {
+      display: flex;
+      align-items: center;
+      padding: 8px 0;
+    }
+
+    .input-container .title {
+      width: 80px;
+    }
+
+    .input-container input,
+    .input-container select {
+      padding: 8px 10px;
+      flex-grow: 1;
+      font-size: 14px;
+    }
+    .input-container select {
+      height: 37px;
+    }
+    .submit-btn {
+      background-color: #2e5b88;
+      border-radius: 10px;
+      padding: 8px 25px;
+      float: right;
+      color: white;
+      font-size: 16px;
+    }
+    .table {
+      margin: 0 auto;
+      width: 900px;
+    }
+    .table .row {
+      display: flex;
+    }
+    .table .header {
+      background: #e2e2e2;
+    }
+    .table .row > div {
+      width: calc(100% / 7);
+      padding: 5px 8px;
+      border: 1px solid gray;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="/export-data" target="_blank" class="form-container">
+    <div class="input-container">
+      <div class="title">Brand</div>
+      {{{brand}}}
+    </div>
+    <div class="input-container">
+      <div class="title">Sàn</div>
+      {{{marketplace}}}
+    </div>
+    <div class="input-container">
+      <div class="title">Date</div>
+      <input type="text" name="daterange" value="05/01/2020 - 06/15/2020" />
+    </div>
+    <div>
+      <button class="submit-btn">Export</button>
+    </div>
+  </form>
+  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <script>
+    $(function () {
+      $('input[name="daterange"]').daterangepicker({
+        opens: 'left'
+      }, function (start, end, label) {
+        console.log(start.format('YYYY-MM-DD'));
+        console.log(end.format('YYYY-MM-DD'));
+      });
+    });
+  </script>
+</body>
+
+</html>

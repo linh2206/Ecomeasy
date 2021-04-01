@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.defb2538.chunk.css",
+    "main.js": "/static/js/main.9c65fc4e.chunk.js",
+    "main.js.map": "/static/js/main.9c65fc4e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c57fad4d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c57fad4d.js.map",
+    "static/css/2.1db45773.chunk.css": "/static/css/2.1db45773.chunk.css",
+    "static/js/2.028977ed.chunk.js": "/static/js/2.028977ed.chunk.js",
+    "static/js/2.028977ed.chunk.js.map": "/static/js/2.028977ed.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8766412e1c7ebadec23c1140e74a9bdd.js": "/precache-manifest.8766412e1c7ebadec23c1140e74a9bdd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1db45773.chunk.css.map": "/static/css/2.1db45773.chunk.css.map",
+    "static/css/main.defb2538.chunk.css.map": "/static/css/main.defb2538.chunk.css.map",
+    "static/media/BoxNum2.4f024802.svg": "/static/media/BoxNum2.4f024802.svg",
+    "static/media/CartNum3.41e04e34.svg": "/static/media/CartNum3.41e04e34.svg",
+    "static/media/Compiling.2b249961.svg": "/static/media/Compiling.2b249961.svg",
+    "static/media/Equalizer.8eae8061.svg": "/static/media/Equalizer.8eae8061.svg",
+    "static/media/Euro.29f878b2.svg": "/static/media/Euro.29f878b2.svg",
+    "static/media/File-plus.7a98d07d.svg": "/static/media/File-plus.7a98d07d.svg",
+    "static/media/flaticon.css": "/static/media/Flaticon2.eafcbac0.ttf",
+    "static/media/Group.e338db2a.svg": "/static/media/Group.e338db2a.svg",
+    "static/media/Layout-4-blocks.88f64560.svg": "/static/media/Layout-4-blocks.88f64560.svg",
+    "static/media/Mail-attachment.450b3dd3.svg": "/static/media/Mail-attachment.450b3dd3.svg",
+    "static/media/Search.5c98a9b7.svg": "/static/media/Search.5c98a9b7.svg",
+    "static/media/SortNum1.2e2495e0.svg": "/static/media/SortNum1.2e2495e0.svg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg",
+    "static/media/line-awesome.css": "/static/media/line-awesome.8b129059.woff",
+    "static/media/index.scss": "/static/media/slick.f97e3bbf.svg",
+    "static/media/socicon.css": "/static/media/socicon.a35b6574.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c57fad4d.js",
+    "static/css/2.1db45773.chunk.css",
+    "static/js/2.028977ed.chunk.js",
+    "static/css/main.defb2538.chunk.css",
+    "static/js/main.9c65fc4e.chunk.js"
+  ]
+}

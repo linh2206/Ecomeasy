@@ -1,0 +1,39 @@
+{
+	"acc": "myphamtotkissa@gmail.com",
+	"pass": "aaa@1234",
+	"dbServer": {
+    "uri": "mongodb+srv://matchstick:matchstick@cluster0-kx5na.mongodb.net/ece?retryWrites=true&w=majority",
+    "dbName": "ece"
+  }, 
+  "userFileStorage" : {
+    "publicAccess": {
+      "folderPath": "./backend_file_storage/public_access",
+      "user_avatar": "user_avatar"
+
+    },
+    "privateAccess": {
+      "folderPath": "./backend_file_storage/private_access"
+    }
+  },
+  "selfServer": {
+    "domain": "staging.ecomeasy.asia",
+     "host": "https://staging.ecomeasy.asia",
+    "ip": "http://45.76.162.222",
+    "port": 3001
+  },
+  "webServer": {
+    "domain": "staging.ecomeasy.asia",
+    "host": "https://staging.ecomeasy.asia",
+    "ip": "http://localhost",
+    "port": 3000
+  },
+  "allowedOrigins": [
+    "http://127.0.0.1:3000", 
+    "http://localhost:3000"
+  ],
+  "sendGridAuth": {
+    "apiKey": "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"
+  },
+  "tokenSecret": "This is magic"
+}
+

@@ -1,0 +1,41 @@
+{
+	"brandAdmin": {
+		"name": "brandAdmin",
+		"lang": {
+      "en": "Brand Admin",
+      "vn": "Quản lý thương hiệu"
+    },
+		"scope": "system",
+		"permissions": [
+			"createBrand",  
+			"readAdminBrand",
+			"updateAdminBrand",
+			"inviteTobeAdmin",
+			"connectSource",
+			"disconnectSource",
+			"revenueStat",
+			"deleteAdminBrand"
+		]
+	},
+	"brandOwner": {
+		"name": "brandOwner",
+		"lang": {
+      "en": "Brand Onwer",
+      "vn": "Chủ thương hiệu"
+    },
+		"scope": "system",
+		"permissions": [  
+			"readOwnerBrand",
+			"revenueStat"
+		]
+	},
+	"systemAdmin": {
+		"name": "systemAdmin",
+		"lang": {
+      "en": "System Admin",
+      "vn": "Quản lý toàn hệ thống"
+    },
+		"scope": "system",
+		"permissions": []
+	}
+}

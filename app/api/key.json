@@ -1,0 +1,15 @@
+{
+	"accept": "application/json, text/javascript"
+	,"accept-encoding": "gzip, deflate, br"
+	,"accept-language": "vi,en-US;q=0.9,en;q=0.8"
+	,"content-type": "application/x-www-form-urlencoded"
+	,"cookie": "c_csrf=3e59a6b8-a294-413a-aedb-1692630d6dbb; JSID=15a830d1a3c4a39ce23c9854a9fcc429; CSRFT=35b814786616e; TID=3d334916e44ce1c0421385ec71ebc9a7; _lang=vi_VN; t_fv=1591176979602; t_uid=FnOnSCPgkcFCLNb09rXFShp3W10BW8hA; cna=elxeFzZ9x3wCAWVjIQE8KT3p; _ga=GA1.2.354568421.1591177046; _bl_uid=q6kaqawzznp5ICqsde3wnOUcvdOR; accountType=email; _gid=GA1.2.137017581.1591591410; t_sid=4FmrEPgLDjxcz8VFfeNvwlnf8zh3mLho; utm_channel=NA; _gat=1; _m_h5_tk=64b821ab81533a2380ea8681f29eb64e_1591613223424; _m_h5_tk_enc=f778dd95b47e5c9a5920aee1511fcc1c; JSESSIONID=node015aqvpgjdqnzzhskd6fsz3wxk15614774.node0"
+	,"origin": "https://sellercenter.lazada.vn"
+	,"referer": "https://sellercenter.lazada.vn/order/query"
+	,"sec-fetch-dest": "empty"
+	,"sec-fetch-mode": "cors"
+	,"sec-fetch-site": "same-origin"
+	,"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+	,"x-requested-with": "XMLHttpRequest"
+	,"x-xsrf-token": "3e59a6b8-a294-413a-aedb-1692630d6dbb"
+}
